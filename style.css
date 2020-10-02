@@ -1,0 +1,55 @@
+*{
+	font-size: 18px;
+	font-family: Arial;
+}
+body {
+	background-color: #36393f;
+}
+.header1 {
+	text-align: center;
+	font-size: 55px;
+ 	font-weight: 700;
+ 	color: white;
+	margin-top: 55px;
+}
+.lessons {
+	background-color: #4f545c;
+	border: solid 5px #202225;
+	border-radius: 15px;
+	margin: 45px 20px;
+	width: 250px;
+	height: 500px;
+	display: inline-block;
+	box-shadow: 3px 1px black;
+
+}
+.lessons h2 {
+	text-align: center;
+	padding: 25px 0 0 0;
+	font-size: 25px;
+	font-weight: 600;
+	color: white;
+}
+.lessons li:hover {
+	border: 3px solid #1CFC05;
+	height: 40px;
+	width: 160px;
+	background-color: #1CFC05;
+}
+.lessons li {
+	border: 1px solid black;
+	border-radius: 15px;
+	color: white;
+	font-size: 12px;
+	margin-top: 15px;
+	margin-left: 25px;
+	height: 30px;
+	width: 150px;
+	padding-left: 25px;
+	padding-top: 8px
+}
+.lessons:first-child {
+	position: absolute;
+	left: 0;
+	top:0;
+}
